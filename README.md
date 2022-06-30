@@ -1,9 +1,11 @@
 <p align="center"><img src="logo.svg" align="center" width="80"/></p>
 <h1 align="center">
-  filestack-react
+  filestack-react-18
 </h1>
 <p align="center">
   React component which allow you to easily integrate powerful filestack-api into your app.
+
+  <strong>Note</strong>: This is only a fork which temporarily works with react 18. Find the original project <a href="https://github.com/filestack/filestack-react">here
 </p>
 <p align="center">
   <a href="https://travis-ci.org/filestack/filestack-react">
@@ -39,11 +41,11 @@ filestack-react is a wrapper on [filestack-js](https://github.com/filestack/file
 ## Usage
 Install it through NPM
 ```bash
-npm install filestack-react
+npm install filestack-react-18
 ```
 then just insert into your app
 ```jsx
-import { PickerOverlay } from 'filestack-react';
+import { PickerOverlay } from 'filestack-react-18';
 
 <PickerOverlay
   apikey={YOUR_API_KEY}
@@ -84,7 +86,7 @@ import { PickerOverlay } from 'filestack-react';
 ### filestack-js Client
 If you need to use Client just try
 ```jsx
-import { client } from 'filestack-react';
+import { client } from 'filestack-react-18';
 ```
 
 ### SSR

@@ -1,12 +1,12 @@
 {
   "name": "filestack-react-18",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "UnOfficial Fork of the Official React component for Filestack - API and content management system that makes it easy to add powerful file uploading and transformation capabilities to any web or mobile application.",
   "author": "filestack",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/filestack/filestack-react.git"
+    "url": "git+https://github.com/sebinbenjamin/filestack-react-18"
   },
   "main": "dist/filestack-react.js",
   "module": "dist/filestack-react.modern.js",
@@ -14,7 +14,7 @@
   "engines": {
     "node": ">=10"
   },
-  "homepage": "https://github.com/filestack/filestack-react#readme",
+  "homepage": "https://github.com/sebinbenjamin/filestack-react-18#readme",
   "keywords": [
     "filestack-react",
     "filestack",
